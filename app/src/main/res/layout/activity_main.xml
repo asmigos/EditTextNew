@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.edittextnew.MainActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:textColorHint="#c5c5c5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:textSize="15sp"
+            android:hint="User Name"
+            android:textColor="#2fa881"
+            android:id="@+id/et_otp"
+            android:maxLength="4"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:background="@drawable/selector_bg_edit"
+            android:textCursorDrawable="@drawable/bg_input_cursor"
+            android:paddingBottom="2dp"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+
+</android.support.constraint.ConstraintLayout>
